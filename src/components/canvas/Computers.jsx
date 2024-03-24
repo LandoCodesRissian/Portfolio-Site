@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
+import React, { Suspense, useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from '../Loader';
+import CanvasLoader from "../Loader";
 
 const Computers = () => {
   const computer = useGLTF('/desktop_pc/scene.gltf');
@@ -11,7 +11,18 @@ const Computers = () => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
       <pointLight intensity={1} />
-      <primitive object={computer.scene} />
+      <spotLight
+        position={[-20, 50, 10]}
+      />
+      <primitive object={computer.scene} 
+      scale={0.75}
+      position={[0, -3.25, -1.5]}
+      rotation= {[-0.01, -0.2, -0.1]}
+      angle={0.12}
+      intensity={1}
+      castShadow
+      shadowMapSize={1024}
+      />
     </mesh>
   );
 };
