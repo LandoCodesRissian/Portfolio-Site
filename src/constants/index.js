@@ -71,16 +71,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -106,10 +98,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
@@ -122,9 +110,9 @@ import {
       points: [
         "Responsive Web Design: Mastering HTML5, CSS3, and design frameworks to create visually appealing, mobile-first websites.",
         "Deep dived into JavaScript, ES6+, and popular frameworks/libraries like React, Angular, or Vue.js for dynamic client-side scripting.",
-        "Server-Side Development: Learning back-end technologies such as Node.js, Express, Python with Flask, covering RESTful API development and server logic.",
+        "Server-Side Development: Learning back-end technologies such as Node.js, Express, covering RESTful API development and server logic.",
         "Database Management: Understanding relational (SQL) and non-relational (NoSQL) databases, ORM tools, and how to interact with data securely and efficiently",
-        "DevOps and Deployment: Gaining insights into version control with Git, cloud services (AWS, Heroku), containerization with Docker, and CI/CD practices for application deployment.",
+        "DevOps and Deployment: Gaining insights into version control with Git, cloud services (AWS, Heroku), and CI/CD practices for application deployment.",
       ],
     },
     {
