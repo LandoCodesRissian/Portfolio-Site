@@ -15,14 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    UofU,
     carrent,
     jobit,
     tripguide,
     threejs,
+    Freelance,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +44,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "API Specialist",
       icon: mobile,
     },
     {
@@ -116,55 +114,30 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full-Stack Web Development Bootcamp",
+      company_name: "Univeristy Of Utah",
+      icon: UofU,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2023 - February 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsive Web Design: Mastering HTML5, CSS3, and design frameworks to create visually appealing, mobile-first websites.",
+        "Deep dived into JavaScript, ES6+, and popular frameworks/libraries like React, Angular, or Vue.js for dynamic client-side scripting.",
+        "Server-Side Development: Learning back-end technologies such as Node.js, Express, Python with Flask, covering RESTful API development and server logic.",
+        "Database Management: Understanding relational (SQL) and non-relational (NoSQL) databases, ORM tools, and how to interact with data securely and efficiently",
+        "DevOps and Deployment: Gaining insights into version control with Git, cloud services (AWS, Heroku), containerization with Docker, and CI/CD practices for application deployment.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Web Developer",
+      company_name: "Freelance",
+      icon: Freelance,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "February 2024 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Taught myself how to use python and flask to create a Website",
+        "Managed a MySQL Database using python",
+        "Created a C# program that creates security badges for a company",
+        "Dived lightly into CyberSecurity",
       ],
     },
   ];
