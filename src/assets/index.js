@@ -24,9 +24,8 @@ import threejs from "./tech/threejs.svg";
 import UofU from "./company/UofU.png";
 import Freelance from "./company/Freelance.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import giftGenie from "./GiftGenie.png"
+import live from "./live.png"
 
 export {
   logo,
@@ -52,7 +51,6 @@ export {
   threejs,
   UofU,
   Freelance,
-  carrent,
-  jobit,
-  tripguide,
+  giftGenie,
+  live,
 };
