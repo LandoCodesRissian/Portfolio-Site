@@ -130,26 +130,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Landon transformed our website with unparalleled skill. Quick, creative, and reliable, he is the go-to for any web development needs.",
+      name: "Sophia Martinez",
       designation: "CFO",
-      company: "Acme Co",
+      company: "MaxII Corp",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "Impressive web dev talent! Landon exceeds expectations, marrying technical prowess with a keen eye for user-friendly design.",
+      name: "Ethan Taylor",
       designation: "COO",
-      company: "DEF Corp",
+      company: "MaG Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Landon is a web development wizard—fast, efficient, and innovative. His work elevates projects, making complex tasks seem easy.",
+      name: "Ava Chen",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "212 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
