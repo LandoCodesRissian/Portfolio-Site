@@ -130,10 +130,10 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Working with Landon on this project, changed my life.  I went from Zero to Hero with his help.   The world owes him a debt.  All of my progeny will bare his name, just to show how impactful and imperative his work on our project was.",
-      name: "Sophia Martinez",
-      designation: "CFO",
-      company: "MaxII Corp",
+        "Landon was a standout in our final project, bringing both innovative ideas and the technical prowess to implement them into our gift-finding app. His insightful contributions and delightful approach made the development process both efficient and enjoyable. Landon's skill and dedication were crucial in transforming our concept into a successful reality.",
+      name: "Joshua G. Slem",
+      designation: "Project Lead",
+      company: "Coding Bootcamp Course Final Project",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
