@@ -130,7 +130,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Landon transformed our website with unparalleled skill. Quick, creative, and reliable, he is the go-to for any web development needs.",
+        "Working with Landon on this project, changed my life.  I went from Zero to Hero with his help.   The world owes him a debt.  All of my progeny will bare his name, just to show how impactful and imperative his work on our project was.",
       name: "Sophia Martinez",
       designation: "CFO",
       company: "MaxII Corp",
@@ -138,8 +138,8 @@ import {
     },
     {
       testimonial:
-        "Impressive web dev talent! Landon exceeds expectations, marrying technical prowess with a keen eye for user-friendly design.",
-      name: "Ethan Taylor",
+        "Landon, might be the single greatest coder of our generation.",
+      name: "Abraham Lincoln",
       designation: "COO",
       company: "MaG Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
