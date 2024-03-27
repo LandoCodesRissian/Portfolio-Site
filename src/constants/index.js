@@ -16,6 +16,8 @@ import {
     giftGenie,
     threejs,
     Freelance,
+    bookSearch,
+    noteTaker,
   } from "../assets";
   
   export const navLinks = [
@@ -174,6 +176,50 @@ import {
       image: giftGenie,
       source_code_link: "https://github.com/LandoCodesRissian/Gift-Genie?tab=readme-ov-file",
       live_link: "https://giftgenie-vfsj.onrender.com"
+    },
+    {
+      name: "Book Search",
+      description:
+        "Simple site where users can make an account and search for books, and save searches to view later",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookSearch,
+      source_code_link: "https://github.com/LandoCodesRissian/books-api-apollo?tab=readme-ov-file",
+      live_link: "https://booksearchforyourease.onrender.com"
+    },
+    {
+      name: "Express Note Taker",
+      description:
+        "Website for users to take notes, save them to local storage to view later, and remove them when not needed anymore",
+      tags: [
+        {
+          name: "html",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: noteTaker,
+      source_code_link: "https://github.com/LandoCodesRissian/expressNoteTaker?tab=readme-ov-file",
+      live_link: "https://express-notes-takers-998af2a3d024.herokuapp.com"
     },
   ];
   
