@@ -7,6 +7,7 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,9 +17,45 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value})
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true)
+    
+
+    emailjs.send(
+      'service_hjtwb93',
+      'template_4kv9864',
+      {
+        from_name: form.name,
+        to_name: 'Landon',
+        from_email: form.email,
+        to_email: 'landoncodesrissian@gmail.com',
+        message: form.message,
+      },
+      'Q0T2zk5fTpJ3vTYBp'
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you, I will get back to you as soon as I can.')
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error)
+
+        alert('Something went wrong.')
+      })
+  }
 
 
   return (
@@ -61,8 +98,8 @@ const Contact = () => {
               <textarea
                 rows='7'
                 type='text'
-                name='name'
-                value={form.name}
+                name='message'
+                value={form.message}
                 onChange={handleChange}
                 placeholder="What would you like to say?"
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
