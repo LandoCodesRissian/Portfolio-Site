@@ -137,15 +137,15 @@ import {
         "Landon was a standout in our final project, bringing both innovative ideas and the technical prowess to implement them into our gift-finding app. His insightful contributions and delightful approach made the development process both efficient and enjoyable. Landon's skill and dedication were crucial in transforming our concept into a successful reality.",
       name: "Joshua G. Slem",
       designation: "Project Lead",
-      company: "Coding Bootcamp Course Final Project",
+      company: "Gift Genie",
       image: roboBear,
     },
     {
       testimonial:
-        "Landon, might be the single greatest coder of our generation.",
-      name: "Ethan Parker",
-      designation: "Coworker",
-      company: "Side-Projects",
+        "As a beginner student, Landon was excellent at helping me through problems I had encountered early on. He not only helped me find the answers to questions I had, but helped me through the process of why, and how to further find the solutions for myself should I encounter them again.",
+      name: "Gunner Russell",
+      designation: "Student",
+      company: "Bootcamp",
       image: roboMan,
     },
     {
