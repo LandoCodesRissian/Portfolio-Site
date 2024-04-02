@@ -18,6 +18,9 @@ import {
     Freelance,
     bookSearch,
     noteTaker,
+    roboBear,
+    roboMan,
+    knight,
   } from "../assets";
   
   export const navLinks = [
@@ -110,6 +113,7 @@ import {
         "Server-Side Development: Learning back-end technologies such as Node.js, Express, covering RESTful API development and server logic.",
         "Database Management: Understanding relational (SQL) and non-relational (NoSQL) databases, ORM tools, and how to interact with data securely and efficiently",
         "DevOps and Deployment: Gaining insights into version control with Git, cloud services (AWS, Heroku), and CI/CD practices for application deployment.",
+        "Finished the course with a 97% total grade",
       ],
     },
     {
@@ -134,23 +138,23 @@ import {
       name: "Joshua G. Slem",
       designation: "Project Lead",
       company: "Coding Bootcamp Course Final Project",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: roboBear,
     },
     {
       testimonial:
         "Landon, might be the single greatest coder of our generation.",
-      name: "Abraham Lincoln",
-      designation: "COO",
-      company: "MaG Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Ethan Parker",
+      designation: "Coworker",
+      company: "Side-Projects",
+      image: roboMan,
     },
     {
       testimonial:
         "Landon is a web development wizard—fast, efficient, and innovative. His work elevates projects, making complex tasks seem easy.",
-      name: "Ava Chen",
-      designation: "CTO",
-      company: "212 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Jordan Kampman",
+      designation: "Friend",
+      company: "Work",
+      image: knight,
     },
   ];
   

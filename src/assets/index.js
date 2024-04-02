@@ -25,6 +25,10 @@ import bookSearch from "./BookSearch.png"
 import giftGenie from "./GiftGenie.png"
 import noteTaker from "./noteTaker.png"
 
+import roboBear from "./roboBear.png"
+import roboMan from "./roboMan.png"
+import knight from "./knight.png"
+
 import live from "./live.png"
 
 export {
@@ -52,4 +56,7 @@ export {
   live,
   bookSearch,
   noteTaker,
+  roboBear,
+  roboMan,
+  knight,
 };
